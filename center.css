@@ -1,0 +1,11 @@
+body{
+	background-color: #706677;
+	color: #fff;
+}
+
+.main-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 640px;
+}

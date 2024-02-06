@@ -1,0 +1,52 @@
+h1{
+
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: rgb(223,241,237);
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.reg-container{
+	background-color: #fff;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+	border-radius: 20px;
+/*	overflow: hidden;*/
+	width: 400px;
+	padding: 10px;
+}
+
+#submit button {
+	background-color: rgb(236,31,38);
+	color: #fff;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+	border-radius: 4px;
+	font-size: 16px;
+}
+
+#submit button:hover {
+	background-color: rgb(243,126,134);
+}
+
+.form-group input {
+	width: 60%;
+	padding: 8px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 14px;
+}
+
+.form-group label {
+	font-size: 14px;
+	color: #666;
+	margin-bottom: 5px;
+	text-align: left;
+}

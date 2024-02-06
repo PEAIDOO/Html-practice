@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form website</title>
+	<style>
+		.form-details{
+			background-color: bisque;
+			font-kerning: 30px;
+			color: cadetblue;
+		}
+		#title{
+			color: aquamarine;
+			background-color: chocolate;
+		}
+
+		h1 {
+			font-size: 60px;
+		}
+	</style>
+
+</head>
+<body>
+<center>
+<section id="title">
+		<h1>Registraton form</h1>
+	</section>
+	<form>
+		<div class="form-details">
+		  <label><strong>First name:</strong></label>
+		  <input type="text" name="First name" placeholder="please enter first name">
+	    </div>
+	      <br>
+	    <div class="form-details">
+		  <label><strong>Last name:</strong></label>
+		  <input type="text" name="Last name" placeholder="please enter last name">
+	    </div>
+	      <br>
+	    <div id="age">
+		  <label><strong>Age:</strong></label>
+		  <input type="number" placeholder="enter age">
+		</div>
+		  <br>
+		<div class="email">
+		  <label><strong>Email:</strong></label>
+		  <input type="text" name="Email" placeholder="enter email">
+	    </div>
+	      <br>
+	    <div class="password">
+		  <label><strong>Password:</strong></label>
+		  <input type="Password">
+		</div>
+		  <br>
+		<div id="button">
+		  <label><strong>Select gender</strong></label>
+		  <input type="radio" name="gender" value="male" checked/> Male
+		  <input type="radio" name="gender" value="female" checked/> Female
+		  <input type="radio" name="gender" value="other" checked/> Other
+	    </div>
+	      <br>
+	    <div id="select">
+	      <label><strong>Select race</strong></label>
+	      <select>
+	      <option value="Latino">Latino</option>
+	      <option value="Black">Black</option>
+	      <option value="White">White</option>
+	      <option value="Asian">Asian</option>
+	      </select>
+	    </div>
+	      <br>
+	    <div id="submit">
+	    	<input type="submit" value="Submit"/>
+	    	<button>sign in</button>
+	    </div>
+	</form>
+</center>
+</body>
+</html>

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codetrain Form</title>
+    <link rel="stylesheet" href="enam_cs.css">
+     <!-- font family links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <!-- font family links -->
+</head>
+<body>
+    <!-- Main container is for the entire work to be in the middle -->
+  <div class="main-container">
+     <div class="box1-container">
+        <div class="box1">
+            <div id="navbar">
+                <!--Top of title-->
+            </div>
+            <div class="title-container">
+              <div id="title-h1">Codetrain Registration Form
+             </div>  
+            </div>
+
+            <div id="title-p">
+                There are 3 steps in our apllication process. Firstly, fill out this enrolment form, and then
+                our admissions team will reach out to you to find out if you are a good fit for the program.
+                If you make it through, we will assist you to get started on the admissions process. 
+            </div>
+            
+
+            <div>
+
+            </div>
+            <div class="line-break"><!-- horizontal line break --></div>
+
+            <!-- email, swicth and cloud-icon  -->
+            <div class="email-switch-cloud-container">
+               <div class="email-swicth-container">
+                <span id="gmail">esinaa@gmail.com</span>
+                  <a href="#" id="switch-account">Switch account</a>
+               </div> 
+
+               <div class="cloud-container">
+                <img src="cloud-icon.png" alt="Cloud-Icon" id="cloud-icon">
+               </div>
+            </div>
+
+            <div class="line-break"><!-- horizontal line break --></div>
+            <!-- <div class="email">
+                <p>
+                    esinaa@gmail.com <a style="color: rgb(20, 90, 194)">Switch accounts</a>
+                </p>
+            </div> -->
+            <div class="required">
+                * Indicates required question
+            </div>
+
+           <!-- <div class="required">
+            <p>
+               * Indicates required question
+            </p>
+           </div> -->
+        </div>
+     </div>
+
+     <form action="">
+        <!-- Email Adress -->
+        <div class="form-container">
+            <div class="form-content">
+                <span class="form-span">Email</span>
+                <span class="form-required" aria-label="Required question"> *</span>
+            </div>
+
+            <div class="placeholder-conatainer">
+                <input type="email" class="placeholder" placeholder="Your email address">
+            </div>
+            <div class="short-line"></div>
+        </div>
+
+        <!-- Full Name -->
+        <div class="form-container">
+            <div class="form-content">
+                <span class="form-span">Full Name</span>
+                <span class="form-required" aria-label="Required question"> *</span>
+            </div>
+
+            <div class="placeholder-conatainer">
+                <input type="text" class="placeholder" placeholder="Your answer">
+            </div>
+            <div class="short-line"></div>
+        </div>
+
+        <!-- Phone Number -->
+        <div class="form-container">
+            <div class="form-content">
+                <span class="form-span">Phone Number</span>
+                <span class="form-required" aria-label="Required question"> *</span>
+            </div>
+
+            <div class="placeholder-conatainer">
+                <input type="number" class="placeholder" placeholder="Your answer">
+            </div>
+            <div class="short-line"></div>
+        </div>
+
+        <!-- Phone Number of Next of Kin -->
+        <div class="form-container">
+            <div class="form-content">
+                <span class="form-span">Phone number of next of kin</span> <br>
+                <span class="next-of-kin">Phone number of someone we can reach out to in case your phone is off or not reachable.
+                </span> <br>
+                <span class="next-of-kin">Eg, your parent, guardian or sibling, or spouse
+                </span>
+            </div>
+
+            <div class="placeholder-conatainer">
+                <input type="number" class="placeholder" placeholder="Your answer">
+            </div>
+            <div class="short-line"></div>
+        </div>
+
+        <!-- Codetrain Fees -->
+        <div class="form-container">
+            <div class="form-content">
+                <span class="form-span">Can you pay 60% or more of the full Codetrain fees (GHS6000)</span>
+                <span class="form-required" aria-label="Required question"> *</span>
+            </div>
+
+            <div class="placeholder-conatainer">
+                <div id="buttons">
+                    <label></label>
+                    <div class="radio1">
+                      <input type="radio" name="gender" value="male" id="radio-no"><span class="radio-margin">No</span>
+                      <label for="radio-no"></label>
+                    </div>
+        
+                    <div class="radio2">
+                      <input type="radio" name="gender" value="female"> <span class="radio-margin">Yes</span>
+                    </div>
+            
+                  </div>
+            </div>
+        </div>
+
+        <!-- Who Will Pay Your Fees? -->
+        <div class="form-container">
+            <div class="form-content">
+                <span class="form-span">Please indicate who is going to pay your fees</span>
+                <span class="form-required" aria-label="Required question"> *</span>
+            </div>
+
+            <div class="placeholder-conatainer">
+            <div id="buttons">
+                <label></label>
+                <div class="radio1">
+                    <input type="radio" name="gender" value="male" id="radio-no"><span class="radio-margin">Yourself</span>
+                    <label for="radio-no"></label>
+                </div>
+    
+                <div class="radio2">
+                    <input type="radio" name="gender" value="female"> <span class="radio-margin">Parent/Sponsor</span>
+                </div>
+    
+                <div class="radio3">
+                    <input type="radio" name="gender" value="female"> <span class="radio-margin">Organization</span>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Location -->
+        <div class="form-container">
+            <div class="form-content">
+                <span class="form-span">Location</span>
+                <span class="form-required" aria-label="Required question"> *</span>
+            </div>
+
+            <div class="placeholder-conatainer">
+                <input type="text" class="placeholder" placeholder="Your answer">
+            </div>
+            <div class="short-line"></div>
+        </div>
+
+        <!-- Current or Previous School -->
+        <div class="form-container">
+            <div class="form-content">
+                <span class="form-span">Current or Previous School</span>
+                <span class="form-required" aria-label="Required question"> *</span>
+            </div>
+
+            <div class="placeholder-conatainer">
+                <input type="text" class="placeholder" placeholder="Your answer">
+            </div>
+            <div class="short-line"></div>
+        </div>
+
+        <!-- Why do you want to join codetrain -->
+        <div class="form-container">
+            <div class="form-content">
+                <span class="form-span">Why do you want to join codetrain</span>
+                <span class="form-required" aria-label="Required question"> *</span>
+            </div>
+
+            <div class="placeholder-conatainer">
+                <input type="text" class="placeholder" placeholder="Your answer">
+            </div>
+            <div class="short-line"></div>
+        </div>
+
+        <!-- How did you hear about codetrain -->
+        <div class="form-container">
+            <div class="form-content">
+                <span class="form-span">How did you hear about Codetrain</span>
+                <span class="form-required" aria-label="Required question"> *</span>
+            </div>
+
+            <div class="placeholder-conatainer">
+                <input type="text" class="placeholder" placeholder="Your answer">
+            </div>
+            <div class="short-line"></div>
+        </div>
+     </form>
+        
+     <!-- <section class="bottom-section">
+     <div class="respone-container">
+
+     </div>
+     </section>       -->
+
+     <!-- bottom part -->
+    <div class="bottom-container">
+        <div class="copy-container">
+          <div id="copy">A copy of your responses will be emailed to the address you provided.</div>
+        </div>
+  
+        <div class="submit-container" >
+          <div class="sub-submit-container">
+            <div class="submit-button-container">
+              <div role="button" class="submit-button">
+                <span class="submit-span1"></span>
+                <span class="submit-span2">Submit</span>
+              </div>
+          </div>
+        </div>
+  
+        <div class="line-page-container">
+          <div class="green-line-container">
+            <div class="green-line"></div>
+          </div>
+  
+          <div class="page">Page 1 of 1</div>
+          <div class="clear-form-container">
+            <div role="button" class="clear-form">
+              <span class="clear">Clear Form</span>
+            </div>
+          </div>
+        </div>
+  
+        <div class="never-submit">Never submit passwords through Google Forms.</div>
+        </div>
+      </div>
+      <!-- bottom part -->
+    <!-- .................................................. -->
+      <!-- footer part start-->
+      
+      <div class="footer-container">
+  
+        <div class="captcha-content-container">
+          <div class="captcha-container">
+            <div class="captcha-image"></div>
+            <div class="captcha-content">
+              <span class="recaptcha">reCAPTCHA</span>
+              <div class="privacy-terms-container">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+              </div>
+            </div>
+          </div>
+          This content is neither created nor endorsed by Google. 
+            <a href="#">Report Abuse</a> -
+            <a href="#">Terms of Service</a> -
+            <a href="#">Privacy Policy</a>
+        </div>
+  
+        <div class="google-form-container">
+          <span id="google">Google</span>
+          <span id="google-forms">Forms</span>
+        </div>
+      </div>
+      <!-- footer part end-->
+      
+  </div>
+    
+</body>
+</html>
